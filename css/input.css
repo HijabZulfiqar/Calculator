@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn{
+    @apply w-full h-[35px] cursor-pointer shadow-md border-b-4 border-b-[#B4A597] bg-[#eae3dc] rounded-md flex justify-center items-center font-roboto text-xl md:text-2xl hover:bg-[#fff]
+}
+.del{
+    @apply  uppercase bg-[#637097] text-[#fff] text-base md:text-xl border-b-[#8A97BE] hover:bg-[#8a97be]
+}
+.equal{
+    @apply col-span-2 uppercase text-base md:text-xl bg-[#93261A] border-b-[#E40906] text-[#fff] hover:bg-[#D03F2F]
+}
+.reset{
+    @apply col-span-2 uppercase bg-[#637097] text-[#fff] text-base md:text-xl border-b-[#8A97BE] hover:bg-[#8a97be]
+}
