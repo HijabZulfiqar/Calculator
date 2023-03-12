@@ -15,27 +15,27 @@
             <div class="flex  justify-center items-center flex-col w-[300px] h-[500px] md:w-[400px] p-5">
                 <input class="input-screen w-full h-[90px] rounded-md border-none font-roboto outline-none p-5 text-2xl text-white bg-[#182034]"  type="text"  id="input-screen">
                 <div id="btn-container" class="w-full bg-[#232c43] rounded-md mt-6 grid grid-cols-4 gap-4 p-5 mx-auto">
-                    <div class="btn num">7</div>
-                    <div class="btn num">8</div>
-                    <div class="btn num">9</div>
-                    <div class="btn del">del</div>
-                    <div class="btn num">4</div>
-                    <div class="btn num">5</div>
-                    <div class="btn num">6</div>
-                    <div class="btn num">+</div>
-                    <div class="btn num">1</div>
-                    <div class="btn num">2</div>
-                    <div class="btn num">3</div>
-                    <div class="btn num">-</div>
-                    <div class="btn num">.</div>
-                    <div class="btn num">0</div>
-                    <div class="btn num">/</div>
-                    <div class="btn mult">x</div>
-                    <div class="btn reset">reset</div>
-                    <div class="btn equal">=</div>
+                    <button onclick=" addToDisplay(7)" class="btn num">7</button>
+                    <button onclick=" addToDisplay(8)" class="btn num">8</button>
+                    <button onclick=" addToDisplay(9)" class="btn num">9</button>
+                    <button  onclick="deleteNumber()" class="btn del">del</button>
+                    <button onclick=" addToDisplay(4)" class="btn num">4</button>
+                    <button onclick=" addToDisplay(5)" class="btn num">5</button>
+                    <button onclick=" addToDisplay(6)" class="btn num">6</button>
+                    <button  onclick="add()"  class="btn num">+</button>
+                    <button onclick=" addToDisplay(1)" class="btn num">1</button>
+                    <button onclick=" addToDisplay(2)" class="btn num">2</button>
+                    <button onclick=" addToDisplay(3)" class="btn num">3</button>
+                    <button onclick="subtract()" class="btn num">-</button>
+                    <button  class="btn num">.</button>
+                    <button onclick=" addToDisplay(0)" class="btn num">0</button>
+                    <button  onclick="divide()" class="btn num">/</button>
+                    <button onclick="multiply()" class="btn mult">x</button>
+                    <button  onclick="reset()" class="btn reset">reset</button>
+                    <button  onclick="equals()" class="btn equal">=</button>
                 </div>
             </div>
-
+                
     </main>
     <script src="./Js/script.js"></script>
 </body>
